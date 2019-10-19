@@ -2,6 +2,7 @@
 
 This is a reproduction of a problem where UDP port forwarding is not working on:
 
+* macOS Mojave 10.14.6
 * Parallels 15.1.0 (47107)
 * Vagrant OSX 2.2.5
 * Vagrant Box generic/ubuntu1804 v1.9.36
