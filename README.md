@@ -31,7 +31,7 @@ vagrant ssh -- -C "ip a && sudo nc -ukl 14550"
 echo "working" | nc -w1 -u ##vagrant_guest_ip## 14550
 ```
 
-* Open a second terminal window and run the following command. You should not see "not working" in the first terminal window.
+* Now run the following command in the second terminal window. The problem is that the echo does not show up in the first terminal window.
 
 ```
 echo "not working" | nc -w1 -u 127.0.0.1 14550
