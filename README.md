@@ -25,7 +25,7 @@ vagrant up
 vagrant ssh -- -C "ip a && sudo nc -ukl 14550"
 ```
 
-* Open a second terminal window (using bash) and run the following command replacing ##vagrant_guest_ip## with the ip address of the listed in the `ip a` output from the above command. You should see the first terminal window display "working".
+* Open a second terminal window (using bash) and run the following command replacing ##vagrant_guest_ip## with the ip address listed in the `ip a` output from the above command. You should see the first terminal window display "working".
 
 ```
 echo "working" | nc -w1 -u ##vagrant_guest_ip## 14550
