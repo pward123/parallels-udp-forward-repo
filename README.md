@@ -13,7 +13,7 @@ This is a reproduction of a problem where UDP port forwarding is not working on:
 * Install vagrant and the vagrant parallels provider, then run the following.
 
 ```
-git clone https://github.com/pward123/parallels-udp-forward-repro.git
+git clone https://github.com/pward123/parallels-udp-forward-repo.git
 cd parallels-udp-forward-repro
 vagrant up
 ```
